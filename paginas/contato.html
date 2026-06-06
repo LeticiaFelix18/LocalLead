@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/contato.css">
+    <script src="../js/main.js" type="module" defer></script>
+    <title>LocalLead | Contato</title>
+</head>
+
+<body>
+
+    
+<header class="header">
+    <nav class="navbar" aria-label="Navegação principal">
+        <a href="../index.html" class="navbar__brand">
+            <img src="../assets/img/logo_locallead.png" alt="Logo LocalLead" class="navbar__logo">
+            <span class="navbar__name">LocalLead</span>
+        </a>
+        <button class="navbar__toggle" type="button" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="navbar-menu">
+            <span class="navbar__toggle-line"></span>
+            <span class="navbar__toggle-line"></span>
+            <span class="navbar__toggle-line"></span>
+        </button>
+        <ul class="navbar__menu" id="navbar-menu">
+            <li class="navbar__item"><a href="../index.html" class="navbar__link">Início</a></li>
+            <li class="navbar__item"><a href="./sobre.html" class="navbar__link">Sobre</a></li>
+            <li class="navbar__item"><a href="./solucao.html" class="navbar__link">Solução</a></li>
+            <li class="navbar__item"><a href="./faq.html" class="navbar__link">FAQ</a></li>
+            <li class="navbar__item"><a href="./contato.html" class="navbar__link navbar__link--active">Contato</a></li>
+            <li class="navbar__item"><a href="./integrantes.html" class="navbar__link">Integrantes</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <main>
+
+        <section class="contact-hero" aria-labelledby="title-contact">
+            <div class="section-title">
+                <h2 id="title-contact">Entre em Contato</h2>
+            </div>
+           <!-- ❌ -->
+<p class="contact-subtitle">
+    Tem alguma dúvida sobre a Soulie, sugestões de gamificação...
+</p>
+
+<p class="contact-subtitle">
+    Tem alguma dúvida sobre o LocalLead, sugestões de melhoria ou quer entender melhor nossa solução de mobilidade urbana?
+    Envie uma mensagem para a nossa equipe!
+</p>
+        </section>
+
+       
+        <section class="contact-container">
+
+            <form action="#" method="POST" class="contact-form" aria-label="Formulário de envio de mensagem">
+
+                <div class="form-group">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" name="nome" required aria-required="true"
+                        placeholder="Digite seu nome completo">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required aria-required="true"
+                        placeholder="exemplo@email.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="assunto">Assunto Principal</label>
+                    <select id="assunto" name="assunto" required aria-required="true">
+                        <option value="" disabled selected>Selecione o motivo do contato</option>
+                        <option value="duvida">Dúvidas sobre o Avatar</option>
+                        <option value="sugestao">Sugestão de Funcionalidade</option>
+                        <option value="feedback">Feedback do Projeto</option>
+                        <option value="outros">Outros Assuntos</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensagem">Sua Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required aria-required="true"
+                        placeholder="Escreva detalhadamente sua mensagem aqui..."></textarea>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn-submit" aria-label="Enviar dados do formulário de contato">
+                        Enviar Mensagem
+                    </button>
+                </div>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Soulie - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
