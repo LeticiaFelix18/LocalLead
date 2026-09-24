@@ -1,5 +1,22 @@
 # LocalLead — Inteligência Espacial para Mobilidade Urbana
 
+> Projeto acadêmico em equipe • Front-end institucional • HTML, CSS e JavaScript
+
+[Ver site](https://locallead-site.vercel.app/index.html) · [Código nesta conta](https://github.com/LeticiaFelix18/LocalLead) · [Perfil de Letícia](https://github.com/LeticiaFelix18)
+
+## 🕷️ Minha contribuição
+
+Minha participação no **LocalLead** envolveu melhorias de conteúdo, navegação e apresentação visual do projeto. Entre as atividades registradas no desenvolvimento estão:
+
+- revisão ortográfica das páginas inicial e Sobre;
+- correções e ajustes no menu de navegação;
+- otimização do tamanho das imagens utilizadas nas páginas App, Sobre e Solução;
+- colaboração na revisão final da experiência apresentada aos usuários.
+
+Essas melhorias contribuíram para tornar a interface mais organizada, leve e consistente.
+
+---
+
 ## Descrição do Projeto
 
 O **LocalLead** é um site institucional desenvolvido para apresentar uma solução de mobilidade urbana inteligente criada para a **Global Solution FIAP 2026**. A proposta do projeto é demonstrar como dados espaciais, inteligência artificial, análise climática e informações ferroviárias podem contribuir para uma experiência mais previsível, clara e segura para passageiros do transporte urbano sobre trilhos.
